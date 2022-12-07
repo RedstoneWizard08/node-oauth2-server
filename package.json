@@ -1,0 +1,69 @@
+{
+    "name": "@node-oauth/oauth2-server",
+    "version": "4.3.0",
+    "description": "Complete, framework-agnostic, compliant and well tested module for implementing an OAuth2 Server in node.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "keywords": [
+        "oauth",
+        "oauth2"
+    ],
+    "contributors": [
+        "Thom Seddon <thom@seddonmedia.co.uk>",
+        "Lars F. Karlström <lars@lfk.io>",
+        "Rui Marinho <ruipmarinho@gmail.com>",
+        "Tiago Ribeiro <tiago.ribeiro@gmail.com>",
+        "Michael Salinger <mjsalinger@gmail.com>",
+        "Nuno Sousa",
+        "Max Truxa",
+        "Daniel Reguero"
+    ],
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "lint": "eslint --ext ts,js .",
+        "lint:fix": "eslint --ext ts,js . --fix",
+        "fmt": "prettier --write ."
+    },
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "fastify": "^4.10.2",
+        "safe-buffer": "^5.2.1",
+        "source-map-support": "^0.5.21",
+        "tslib": "^2.4.1",
+        "url": "^0.11.0"
+    },
+    "devDependencies": {
+        "@types/bluebird": "^3.5.38",
+        "@types/chai": "^4.3.4",
+        "@types/expect": "^24.3.0",
+        "@types/mocha": "^10.0.1",
+        "@types/node": "^18.11.11",
+        "@types/sinon": "^10.0.13",
+        "@types/source-map-support": "^0.5.6",
+        "@typescript-eslint/eslint-plugin": "^5.45.1",
+        "@typescript-eslint/parser": "^5.45.1",
+        "bluebird": "^3.7.2",
+        "chai": "^4.3.7",
+        "eslint": "^8.29.0",
+        "mocha": "^10.1.0",
+        "nyc": "^15.1.0",
+        "prettier": "^2.8.0",
+        "sinon": "^15.0.0",
+        "ts-mocha": "^10.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "5.0.0-dev.20221205"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/node-oauth/node-oauth2-server.git"
+    },
+    "bugs": {
+        "url": "https://github.com/node-oauth/node-oauth2-server/issues"
+    },
+    "homepage": "https://github.com/node-oauth/node-oauth2-server#readme"
+}
